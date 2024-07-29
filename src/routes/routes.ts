@@ -17,8 +17,6 @@ const Lazy2 = lazy(() => import(/* webpackChunkName: "LazyPage2" */ '../01-lazyl
 const Lazy3 = lazy(() => import(/* webpackChunkName: "LazyPage3" */ '../01-lazyload/pages/LazyPage3'));
 
 
-
-
 export const routes: Route[] = [
     {
         to: '/lazy1',
