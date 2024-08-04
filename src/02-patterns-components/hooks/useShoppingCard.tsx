@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Product, ProductInCart, onChangeArgs } from "../interfaces/interfaces";
+import { ProductInCart, onChangeArgs } from "../interfaces/interfaces";
 
 const useShoppingCard = () => {
   const [shoppingCart, setShoppingCart] = useState<{
